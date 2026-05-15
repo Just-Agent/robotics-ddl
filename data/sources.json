@@ -1,0 +1,86 @@
+{
+  "topicId": "robotics-ddl",
+  "generatedAt": "2026-05-15T18:03:01.921Z",
+  "sourcePolicy": "Chinese-first display. Dates are preserved from the hub dataset; crawlers must verify against official pages before strict mode.",
+  "sourceFamilies": [
+    {
+      "id": "robocup",
+      "name": "RoboCup",
+      "url": "https://www.robocup.org",
+      "adapter": "robocupAdapter",
+      "confidence": "official"
+    },
+    {
+      "id": "icra",
+      "name": "ICRA",
+      "url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
+      "adapter": "icraAdapter",
+      "confidence": "official"
+    },
+    {
+      "id": "iros",
+      "name": "IROS",
+      "url": "https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros",
+      "adapter": "irosAdapter",
+      "confidence": "official"
+    },
+    {
+      "id": "aicrowd",
+      "name": "AIcrowd Robotics Challenges",
+      "url": "https://www.aicrowd.com/challenges",
+      "adapter": "aicrowdRoboticsAdapter",
+      "confidence": "official-aggregator"
+    }
+  ],
+  "itemSources": [
+    {
+      "name": "RoboCup",
+      "url": "https://www.robocup.org",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "IROS",
+      "url": "https://www.iros.org",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "IEEE RAS ICRA",
+      "url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "Open X-Embodiment",
+      "url": "https://robotics-transformer-x.github.io",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "AI City Challenge",
+      "url": "https://www.aicitychallenge.org",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "robocup.org",
+      "url": "https://www.robocup.org",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "RoboMaster",
+      "url": "https://www.robomaster.com",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    }
+  ]
+}
