@@ -1,39 +1,67 @@
 import fs from 'node:fs';
 
-async function robocupAdapter() {
-  return {
-    source: "RoboCup",
-    url: "https://www.robocup.org",
+const CRAWL_TIMEOUT_MS = Number(process.env.CRAWL_TIMEOUT_MS) || 10000;
+const USER_AGENT = 'Just-DDL-Crawler/1.0 (+https://just-agent.github.io/just-ddl/)';
+
+function extractTitle(html) {
+  const match = html.match(/<title[^>]*>([^<]*)<\/title>/i);
+  return match ? match[1].trim().slice(0, 200) : null;
+}
+
+async function fetchSourcePage(source) {
+  const report = {
+    sourceId: source.id,
+    source: source.name,
+    url: source.url,
     items: [],
-    note: 'TODO: implement parser for RoboCup; keep data/items.json as curated fallback until parser is verified.'
+    reachable: false,
+    httpStatus: null,
+    finalUrl: null,
+    title: null,
+    contentLength: null,
+    fetchedAt: new Date().toISOString(),
+    note: 'Source reachability check only; curated data/items.json preserved until item parser is implemented.',
+    error: null
   };
+  try {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), CRAWL_TIMEOUT_MS);
+    const res = await fetch(source.url, {
+      redirect: 'follow',
+      signal: controller.signal,
+      headers: { 'User-Agent': USER_AGENT }
+    });
+    clearTimeout(timer);
+    report.httpStatus = res.status;
+    report.finalUrl = res.url;
+    const text = await res.text();
+    report.contentLength = text.length;
+    report.title = extractTitle(text);
+    report.reachable = res.status >= 200 && res.status < 400;
+    report.note = report.reachable
+      ? 'Source reachable. Curated data/items.json preserved until item parser is implemented.'
+      : `Source returned HTTP ${res.status}. Curated data/items.json preserved.`;
+  } catch (err) {
+    report.error = err.name === 'AbortError' ? `Timeout after ${CRAWL_TIMEOUT_MS}ms` : err.message;
+    report.note = `Source fetch failed: ${report.error}. Curated data/items.json preserved.`;
+  }
+  return report;
+}
+
+async function robocupAdapter() {
+  return fetchSourcePage({ id: "robocup", name: "RoboCup", url: "https://www.robocup.org" });
 }
 
 async function icraAdapter() {
-  return {
-    source: "ICRA",
-    url: "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
-    items: [],
-    note: 'TODO: implement parser for ICRA; keep data/items.json as curated fallback until parser is verified.'
-  };
+  return fetchSourcePage({ id: "icra", name: "ICRA", url: "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra" });
 }
 
 async function irosAdapter() {
-  return {
-    source: "IROS",
-    url: "https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros",
-    items: [],
-    note: 'TODO: implement parser for IROS; keep data/items.json as curated fallback until parser is verified.'
-  };
+  return fetchSourcePage({ id: "iros", name: "IROS", url: "https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros" });
 }
 
 async function aicrowdRoboticsAdapter() {
-  return {
-    source: "AIcrowd Robotics Challenges",
-    url: "https://www.aicrowd.com/challenges",
-    items: [],
-    note: 'TODO: implement parser for AIcrowd Robotics Challenges; keep data/items.json as curated fallback until parser is verified.'
-  };
+  return fetchSourcePage({ id: "aicrowd", name: "AIcrowd Robotics Challenges", url: "https://www.aicrowd.com/challenges" });
 }
 
 const adapters = [robocupAdapter, icraAdapter, irosAdapter, aicrowdRoboticsAdapter];
@@ -50,11 +78,16 @@ if (harvestedItems.length > 0) {
   fs.writeFileSync(existingItemsUrl, JSON.stringify(harvestedItems, null, 2) + '\n', 'utf8');
   console.log(`crawler wrote ${harvestedItems.length} fetched items`);
 } else {
-  console.log(`crawler adapters ran; no verified fetched items yet, preserving ${existingItems.length} curated items`);
+  console.log(`no verified item parser emitted items; preserving ${existingItems.length} curated items in data/items.json`);
 }
 
+const reachableCount = reports.filter(r => r.reachable).length;
+console.log(`reachability: ${reachableCount}/${reports.length} sources reachable`);
+
 fs.writeFileSync(new URL('../data/crawl-report.json', import.meta.url), JSON.stringify({
-  generatedAt: new Date().toISOString(),
   topicId: "robotics-ddl",
+  generatedAt: new Date().toISOString(),
+  adapterCount: reports.length,
+  reachableCount,
   adapters: reports
 }, null, 2) + '\n', 'utf8');
