@@ -1,6 +1,6 @@
 {
   "topicId": "robotics-ddl",
-  "generatedAt": "2026-05-16T08:28:39.326Z",
+  "generatedAt": "2026-05-16T08:36:14.717Z",
   "adapterCount": 5,
   "reachableCount": 5,
   "parsedItemCount": 8,
@@ -18,7 +18,7 @@
       "finalUrl": "https://www.robocup.org/",
       "title": "RoboCup Federation official website",
       "contentLength": 72310,
-      "fetchedAt": "2026-05-16T08:28:32.548Z",
+      "fetchedAt": "2026-05-16T08:36:10.631Z",
       "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
       "error": null
     },
@@ -32,7 +32,7 @@
       "finalUrl": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/",
       "title": "ICRA - IEEE Robotics and Automation Society Website",
       "contentLength": 493042,
-      "fetchedAt": "2026-05-16T08:28:34.013Z",
+      "fetchedAt": "2026-05-16T08:36:11.411Z",
       "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
       "error": null
     },
@@ -46,7 +46,7 @@
       "finalUrl": "https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros/",
       "title": "International Conference on Intelligent Robots and Systems (IROS) - IEEE Robotics and Automation Society Website",
       "contentLength": 493083,
-      "fetchedAt": "2026-05-16T08:28:35.369Z",
+      "fetchedAt": "2026-05-16T08:36:11.836Z",
       "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
       "error": null
     },
@@ -221,7 +221,7 @@
       "finalUrl": "https://www.aicitychallenge.org/",
       "title": "AI CITY CHALLENGE",
       "contentLength": 230142,
-      "fetchedAt": "2026-05-16T08:28:35.945Z",
+      "fetchedAt": "2026-05-16T08:36:11.983Z",
       "note": "Parsed 8 items from AI City Challenge; rejected 1 entries.",
       "error": null,
       "parsedItemCount": 8,
@@ -238,7 +238,7 @@
       "finalUrl": "https://www.aicrowd.com/challenges",
       "title": "AIcrowd | Challenges",
       "contentLength": 458677,
-      "fetchedAt": "2026-05-16T08:28:36.920Z",
+      "fetchedAt": "2026-05-16T08:36:12.393Z",
       "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
       "error": null
     }
