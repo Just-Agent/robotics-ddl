@@ -1,6 +1,6 @@
 {
   "topicId": "robotics-ddl",
-  "generatedAt": "2026-05-15T23:49:10.098Z",
+  "generatedAt": "2026-05-16T08:17:27.615Z",
   "sourcePolicy": "Chinese-first display. Dates are preserved from the hub dataset; crawlers must verify against official pages before strict mode.",
   "sourceFamilies": [
     {
@@ -22,6 +22,13 @@
       "name": "IROS",
       "url": "https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros",
       "adapter": "irosAdapter",
+      "confidence": "official"
+    },
+    {
+      "id": "aicity",
+      "name": "AI City Challenge",
+      "url": "https://www.aicitychallenge.org",
+      "adapter": "aiCityChallengeAdapter",
       "confidence": "official"
     },
     {

@@ -106,8 +106,8 @@
         <h1>机器人与具身智能</h1>
         <p class="lead">机器人竞赛、ICRA/IROS challenge、自动驾驶和具身智能评测节点。每条事件都显示倒计时，并保留来源入口，方便后续 crawler 自动校验。</p>
         <div class="stats">
-          <div class="stat"><strong>16</strong><span>活跃条目</span></div>
-          <div class="stat"><strong>4</strong><span>来源族</span></div>
+          <div class="stat"><strong id="itemCount">-</strong><span>活跃条目</span></div>
+          <div class="stat"><strong>5</strong><span>来源族</span></div>
           <div class="stat"><strong id="nextDays">-</strong><span>下一条</span></div>
         </div>
       </div>
@@ -117,6 +117,7 @@
           <div class="source-line"><a href="https://www.robocup.org">RoboCup</a><div class="meta">official · robocupAdapter</div></div>
           <div class="source-line"><a href="https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra">ICRA</a><div class="meta">official · icraAdapter</div></div>
           <div class="source-line"><a href="https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros">IROS</a><div class="meta">official · irosAdapter</div></div>
+          <div class="source-line"><a href="https://www.aicitychallenge.org">AI City Challenge</a><div class="meta">official · aiCityChallengeAdapter</div></div>
           <div class="source-line"><a href="https://www.aicrowd.com/challenges">AIcrowd Robotics Challenges</a><div class="meta">official-aggregator · aicrowdRoboticsAdapter</div></div>
         </div>
       </aside>
@@ -129,9 +130,9 @@
   </main>
   <footer>机器人与具身智能 DDL is part of Just-DDL Network. Generated as a production-ready topic repository scaffold.</footer>
   <script>
-    const items = [{"id":"robotics-ddl-robocup-team-registration-2026-07-01","title":"RoboCup Team Registration","deadline":"2026-07-01T23:59:59","dateRange":"Jul 2026","location":"Online","isOnline":true,"tags":["robotics","embodied AI","autonomous"],"url":"https://www.robocup.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"RoboCup","type":"challenge"},{"id":"robotics-ddl-iros-robot-learning-workshop-2026-07-19","title":"IROS Robot Learning Workshop","deadline":"2026-07-19T23:59:59","dateRange":"Jul 2026","location":"Online","isOnline":true,"tags":["robotics","embodied AI","autonomous"],"url":"https://www.iros.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"IROS","type":"challenge"},{"id":"robotics-ddl-icra-manipulation-challenge-2026-08-06","title":"ICRA Manipulation Challenge","deadline":"2026-08-06T23:59:59","dateRange":"Aug 2026","location":"Online","isOnline":true,"tags":["robotics","embodied AI","autonomous"],"url":"https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"IEEE RAS ICRA","type":"challenge"},{"id":"robotics-ddl-open-x-embodiment-benchmark-refresh-2026-08-24","title":"Open X-Embodiment Benchmark Refresh","deadline":"2026-08-24T23:59:59","dateRange":"Aug 2026","location":"Online","isOnline":true,"tags":["robotics","embodied AI","autonomous"],"url":"https://robotics-transformer-x.github.io","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Open X-Embodiment","type":"challenge"},{"id":"robotics-ddl-autonomous-driving-challenge-2026-09-11","title":"Autonomous Driving Challenge","deadline":"2026-09-11T23:59:59","dateRange":"Sep 2026","location":"Online","isOnline":true,"tags":["robotics","embodied AI","autonomous"],"url":"https://www.aicitychallenge.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"AI City Challenge","type":"challenge"},{"id":"robotics-ddl-drone-racing-league-ai-track-2026-09-29","title":"Drone Racing League AI Track","deadline":"2026-09-29T23:59:59","dateRange":"Sep 2026","location":"Online","isOnline":true,"tags":["robotics","embodied AI","autonomous"],"url":"https://www.robocup.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"robocup.org","type":"challenge"},{"id":"robotics-ddl-robomaster-university-series-2026-10-17","title":"RoboMaster University Series","deadline":"2026-10-17T23:59:59","dateRange":"Oct 2026","location":"Online","isOnline":true,"tags":["robotics","embodied AI","autonomous"],"url":"https://www.robomaster.com","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"RoboMaster","type":"challenge"},{"id":"robotics-ddl-humanoid-locomotion-challenge-2026-11-04","title":"Humanoid Locomotion Challenge","deadline":"2026-11-04T23:59:59","dateRange":"Nov 2026","location":"Online","isOnline":true,"tags":["robotics","embodied AI","autonomous"],"url":"https://www.robocup.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"robocup.org","type":"challenge"},{"id":"robotics-ddl-household-robotics-benchmark-2026-11-22","title":"Household Robotics Benchmark","deadline":"2026-11-22T23:59:59","dateRange":"Nov 2026","location":"Online","isOnline":true,"tags":["robotics","embodied AI","autonomous"],"url":"https://www.robocup.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"robocup.org","type":"challenge"},{"id":"robotics-ddl-robot-navigation-long-horizon-track-2026-12-10","title":"Robot Navigation Long-Horizon Track","deadline":"2026-12-10T23:59:59","dateRange":"Dec 2026","location":"Online","isOnline":true,"tags":["robotics","embodied AI","autonomous"],"url":"https://www.robocup.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"robocup.org","type":"challenge"},{"id":"robotics-ddl-rlbench-challenge-refresh-2026-12-28","title":"RLBench Challenge Refresh","deadline":"2026-12-28T23:59:59","dateRange":"Dec 2026","location":"Online","isOnline":true,"tags":["robotics","embodied AI","autonomous"],"url":"https://www.robocup.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"robocup.org","type":"challenge"},{"id":"robotics-ddl-sim2real-transfer-sprint-2027-01-15","title":"Sim2Real Transfer Sprint","deadline":"2027-01-15T23:59:59","dateRange":"Jan 2027","location":"Online","isOnline":true,"tags":["robotics","embodied AI","autonomous"],"url":"https://www.robocup.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"robocup.org","type":"challenge"},{"id":"robotics-ddl-agricultural-robotics-challenge-2027-02-02","title":"Agricultural Robotics Challenge","deadline":"2027-02-02T23:59:59","dateRange":"Feb 2027","location":"Online","isOnline":true,"tags":["robotics","embodied AI","autonomous"],"url":"https://www.robocup.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"robocup.org","type":"challenge"},{"id":"robotics-ddl-warehouse-robot-picking-challenge-2027-02-20","title":"Warehouse Robot Picking Challenge","deadline":"2027-02-20T23:59:59","dateRange":"Feb 2027","location":"Online","isOnline":true,"tags":["robotics","embodied AI","autonomous"],"url":"https://www.robocup.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"robocup.org","type":"challenge"},{"id":"robotics-ddl-embodied-safety-evaluation-2027-03-10","title":"Embodied Safety Evaluation","deadline":"2027-03-10T23:59:59","dateRange":"Mar 2027","location":"Online","isOnline":true,"tags":["robotics","embodied AI","autonomous"],"url":"https://www.robocup.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"robocup.org","type":"challenge"},{"id":"robotics-ddl-robot-foundation-model-workshop-2027-03-28","title":"Robot Foundation Model Workshop","deadline":"2027-03-28T23:59:59","dateRange":"Mar 2027","location":"Online","isOnline":true,"tags":["robotics","embodied AI","autonomous"],"url":"https://www.robocup.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"robocup.org","type":"challenge"}];
+    let items = [];
+    let sorted = [];
     const formatter = new Intl.DateTimeFormat('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' });
-    const sorted = [...items].sort((a, b) => new Date(a.deadline) - new Date(b.deadline));
     function diffParts(deadline) {
       const ms = new Date(deadline) - new Date();
       const positive = Math.max(0, ms);
@@ -141,6 +142,7 @@
       return { days, hours, minutes, ended: ms < 0 };
     }
     function render() {
+      sorted = [...items].sort((a, b) => new Date(a.deadline) - new Date(b.deadline));
       const root = document.getElementById('events');
       const htmlEscape = value => String(value || '')
         .replaceAll('&', '&amp;')
@@ -148,6 +150,11 @@
         .replaceAll('>', '&gt;')
         .replaceAll('"', '&quot;')
         .replaceAll("'", '&#39;');
+      if (!sorted.length) {
+        root.innerHTML = '<article class="event"><h3>暂无可展示条目</h3><div class="desc">数据文件暂不可用，请稍后刷新。</div></article>';
+        document.getElementById('itemCount').textContent = '0';
+        return;
+      }
       root.innerHTML = sorted.map(item => {
         const diff = diffParts(item.deadline);
         const tags = (item.tags || []).map(tag => '<span class="tag">' + htmlEscape(tag) + '</span>').join('');
@@ -165,10 +172,21 @@
           '<a class="button" href="' + htmlEscape(encodeURI(item.url)) + '">查看来源</a>' +
         '</article>';
       }).join('');
+      document.getElementById('itemCount').textContent = String(sorted.length);
       const next = sorted.find(item => new Date(item.deadline) >= new Date()) || sorted[0];
       if (next) document.getElementById('nextDays').textContent = diffParts(next.deadline).days + ' 天后';
     }
-    render();
+    async function loadItems() {
+      try {
+        const response = await fetch('data/items.json', { cache: 'no-store' });
+        if (response.ok) {
+          const freshItems = await response.json();
+          if (Array.isArray(freshItems) && freshItems.length) items = freshItems;
+        }
+      } catch {}
+      render();
+    }
+    loadItems();
     setInterval(render, 60000);
   </script>
 </body>

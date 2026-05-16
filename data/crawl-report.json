@@ -1,0 +1,246 @@
+{
+  "topicId": "robotics-ddl",
+  "generatedAt": "2026-05-16T08:17:53.242Z",
+  "adapterCount": 5,
+  "reachableCount": 5,
+  "parsedItemCount": 8,
+  "previousParsedItemCount": 8,
+  "parserHealthy": true,
+  "parserDropOk": true,
+  "adapters": [
+    {
+      "sourceId": "robocup",
+      "source": "RoboCup",
+      "url": "https://www.robocup.org",
+      "items": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.robocup.org/",
+      "title": "RoboCup Federation official website",
+      "contentLength": 72310,
+      "fetchedAt": "2026-05-16T08:17:45.297Z",
+      "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
+      "error": null
+    },
+    {
+      "sourceId": "icra",
+      "source": "ICRA",
+      "url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
+      "items": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/",
+      "title": "ICRA - IEEE Robotics and Automation Society Website",
+      "contentLength": 493042,
+      "fetchedAt": "2026-05-16T08:17:47.160Z",
+      "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
+      "error": null
+    },
+    {
+      "sourceId": "iros",
+      "source": "IROS",
+      "url": "https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros",
+      "items": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros/",
+      "title": "International Conference on Intelligent Robots and Systems (IROS) - IEEE Robotics and Automation Society Website",
+      "contentLength": 493083,
+      "fetchedAt": "2026-05-16T08:17:48.994Z",
+      "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
+      "error": null
+    },
+    {
+      "sourceId": "aicity",
+      "source": "AI City Challenge",
+      "url": "https://www.aicitychallenge.org",
+      "items": [
+        {
+          "id": "aicity-2026-release-of-evaluation-server-and-test-data-sets-may-18-2026",
+          "title": "AI City Challenge 2026 - Release of evaluation server and test data sets",
+          "deadline": "2026-05-18T23:59:59Z",
+          "dateRange": "May 18, 2026",
+          "location": "Online / CVPR workshop",
+          "isOnline": true,
+          "tags": [
+            "robotics",
+            "autonomous",
+            "smart city",
+            "AI City"
+          ],
+          "url": "https://www.aicitychallenge.org",
+          "status": "upcoming",
+          "description": "Parsed from official AI City Challenge Important Dates section.",
+          "stage": "Milestone",
+          "source": "AI City Challenge",
+          "type": "challenge"
+        },
+        {
+          "id": "aicity-2026-registration-opens",
+          "title": "AI City Challenge 2026 - Registration opens",
+          "deadline": "2026-05-18T23:59:59Z",
+          "dateRange": "May 18, 2026",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "robotics",
+            "autonomous",
+            "smart city",
+            "AI City"
+          ],
+          "url": "https://www.aicitychallenge.org",
+          "status": "upcoming",
+          "description": "Parsed from official AI City Challenge page.",
+          "stage": "Registration",
+          "source": "AI City Challenge",
+          "type": "challenge"
+        },
+        {
+          "id": "aicity-2026-challenge-track-submissions-due-july-10-2026",
+          "title": "AI City Challenge 2026 - Challenge track submissions due",
+          "deadline": "2026-07-10T23:59:59Z",
+          "dateRange": "July 10, 2026",
+          "location": "Online / CVPR workshop",
+          "isOnline": true,
+          "tags": [
+            "robotics",
+            "autonomous",
+            "smart city",
+            "AI City"
+          ],
+          "url": "https://www.aicitychallenge.org",
+          "status": "upcoming",
+          "description": "Parsed from official AI City Challenge Important Dates section.",
+          "stage": "Deadline",
+          "source": "AI City Challenge",
+          "type": "challenge"
+        },
+        {
+          "id": "aicity-2026-anywhere-on-earth-workshop-papers-due-july-24-2026",
+          "title": "AI City Challenge 2026 - (Anywhere on Earth) Workshop papers due",
+          "deadline": "2026-07-24T23:59:59Z",
+          "dateRange": "July 24, 2026",
+          "location": "Online / CVPR workshop",
+          "isOnline": true,
+          "tags": [
+            "robotics",
+            "autonomous",
+            "smart city",
+            "AI City"
+          ],
+          "url": "https://www.aicitychallenge.org",
+          "status": "upcoming",
+          "description": "Parsed from official AI City Challenge Important Dates section.",
+          "stage": "Deadline",
+          "source": "AI City Challenge",
+          "type": "challenge"
+        },
+        {
+          "id": "aicity-2026-anywhere-on-earth-acceptance-notification-august-1-2026",
+          "title": "AI City Challenge 2026 - (Anywhere on Earth) Acceptance notification",
+          "deadline": "2026-08-01T23:59:59Z",
+          "dateRange": "August 1, 2026",
+          "location": "Online / CVPR workshop",
+          "isOnline": true,
+          "tags": [
+            "robotics",
+            "autonomous",
+            "smart city",
+            "AI City"
+          ],
+          "url": "https://www.aicitychallenge.org",
+          "status": "upcoming",
+          "description": "Parsed from official AI City Challenge Important Dates section.",
+          "stage": "Milestone",
+          "source": "AI City Challenge",
+          "type": "challenge"
+        },
+        {
+          "id": "aicity-2026-open-source-by-awards-candidates-due-august-7-2026",
+          "title": "AI City Challenge 2026 - Open source by awards candidates due",
+          "deadline": "2026-08-07T23:59:59Z",
+          "dateRange": "August 7, 2026",
+          "location": "Online / CVPR workshop",
+          "isOnline": true,
+          "tags": [
+            "robotics",
+            "autonomous",
+            "smart city",
+            "AI City"
+          ],
+          "url": "https://www.aicitychallenge.org",
+          "status": "upcoming",
+          "description": "Parsed from official AI City Challenge Important Dates section.",
+          "stage": "Milestone",
+          "source": "AI City Challenge",
+          "type": "challenge"
+        },
+        {
+          "id": "aicity-2026-anywhere-on-earth-camera-ready-papers-due-august-15-2026",
+          "title": "AI City Challenge 2026 - (Anywhere on Earth) Camera-ready papers due",
+          "deadline": "2026-08-15T23:59:59Z",
+          "dateRange": "August 15, 2026",
+          "location": "Online / CVPR workshop",
+          "isOnline": true,
+          "tags": [
+            "robotics",
+            "autonomous",
+            "smart city",
+            "AI City"
+          ],
+          "url": "https://www.aicitychallenge.org",
+          "status": "upcoming",
+          "description": "Parsed from official AI City Challenge Important Dates section.",
+          "stage": "Deadline",
+          "source": "AI City Challenge",
+          "type": "challenge"
+        },
+        {
+          "id": "aicity-2026-presentation-of-papers-and-announcement-of-awards-at-eccv-2026-september-8-9-2026",
+          "title": "AI City Challenge 2026 - Presentation of papers and announcement of awards at ECCV 2026",
+          "deadline": "2026-09-09T23:59:59Z",
+          "dateRange": "September 8/9, 2026",
+          "location": "Online / CVPR workshop",
+          "isOnline": true,
+          "tags": [
+            "robotics",
+            "autonomous",
+            "smart city",
+            "AI City"
+          ],
+          "url": "https://www.aicitychallenge.org",
+          "status": "upcoming",
+          "description": "Parsed from official AI City Challenge Important Dates section.",
+          "stage": "Deadline",
+          "source": "AI City Challenge",
+          "type": "challenge"
+        }
+      ],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.aicitychallenge.org/",
+      "title": "AI CITY CHALLENGE",
+      "contentLength": 230142,
+      "fetchedAt": "2026-05-16T08:17:49.578Z",
+      "note": "Parsed 8 items from AI City Challenge; rejected 1 entries.",
+      "error": null,
+      "parsedItemCount": 8,
+      "invalidItemCount": 1,
+      "parserHealthy": true
+    },
+    {
+      "sourceId": "aicrowd",
+      "source": "AIcrowd Robotics Challenges",
+      "url": "https://www.aicrowd.com/challenges",
+      "items": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.aicrowd.com/challenges",
+      "title": "AIcrowd | Challenges",
+      "contentLength": 458677,
+      "fetchedAt": "2026-05-16T08:17:50.823Z",
+      "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
+      "error": null
+    }
+  ]
+}
