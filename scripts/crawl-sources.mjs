@@ -194,7 +194,7 @@ async function parseAiCityChallengeItems() {
         url: AICITY_URL,
         status: 'upcoming',
         description: 'Parsed from official AI City Challenge Important Dates section.',
-        stage: /submission|deadline|code|paper/i.test(label) ? 'Deadline' : 'Milestone',
+        stage: /submission|deadline|due|code/i.test(label) ? 'Deadline' : 'Milestone',
         source: 'AI City Challenge',
         type: 'challenge'
       });
