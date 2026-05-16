@@ -14,7 +14,7 @@
 | --- | ---: |
 | 当前事件 | 8 |
 | 来源族 | 5 |
-| 下一条 | AI City Challenge 2026 - Release of evaluation server and test data sets / 2026-05-18 |
+| 下一条 | AI City Challenge 2026 - Registration opens / 2026-05-18 |
 
 ## 数据链路
 
