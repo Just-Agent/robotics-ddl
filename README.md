@@ -22,7 +22,7 @@
 
 - `data/items.json`: 事件数据，每条事件包含 `deadline`、`url`、`source`。
 - `data/sources.json`: 官方来源和聚合来源清单。
-- `scripts/crawl-sources.mjs`: source-specific crawler，当前已解析 AI City Challenge 官方 Important Dates；解析失败时保留当前 `data/items.json`。
+- `scripts/crawl-sources.mjs`: source-specific crawler；解析失败时保留当前 `data/items.json`。
 - `scripts/validate-data.mjs`: 数据质量校验。
 - `scripts/link-check.mjs`: 链接检查，默认 warning-only，设置 `STRICT_LINK_CHECK=1` 后严格失败。
 
