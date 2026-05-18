@@ -1,6 +1,6 @@
 {
   "topicId": "robotics-ddl",
-  "generatedAt": "2026-05-16T08:28:39.326Z",
+  "generatedAt": "2026-05-18T06:34:31.761Z",
   "adapterCount": 5,
   "reachableCount": 5,
   "parsedItemCount": 8,
@@ -18,7 +18,7 @@
       "finalUrl": "https://www.robocup.org/",
       "title": "RoboCup Federation official website",
       "contentLength": 72310,
-      "fetchedAt": "2026-05-16T08:28:32.548Z",
+      "fetchedAt": "2026-05-18T06:34:29.676Z",
       "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
       "error": null
     },
@@ -31,8 +31,8 @@
       "httpStatus": 200,
       "finalUrl": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/",
       "title": "ICRA - IEEE Robotics and Automation Society Website",
-      "contentLength": 493042,
-      "fetchedAt": "2026-05-16T08:28:34.013Z",
+      "contentLength": 493427,
+      "fetchedAt": "2026-05-18T06:34:29.723Z",
       "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
       "error": null
     },
@@ -45,8 +45,8 @@
       "httpStatus": 200,
       "finalUrl": "https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros/",
       "title": "International Conference on Intelligent Robots and Systems (IROS) - IEEE Robotics and Automation Society Website",
-      "contentLength": 493083,
-      "fetchedAt": "2026-05-16T08:28:35.369Z",
+      "contentLength": 492594,
+      "fetchedAt": "2026-05-18T06:34:29.725Z",
       "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
       "error": null
     },
@@ -220,8 +220,8 @@
       "httpStatus": 200,
       "finalUrl": "https://www.aicitychallenge.org/",
       "title": "AI CITY CHALLENGE",
-      "contentLength": 230142,
-      "fetchedAt": "2026-05-16T08:28:35.945Z",
+      "contentLength": 230576,
+      "fetchedAt": "2026-05-18T06:34:29.726Z",
       "note": "Parsed 8 items from AI City Challenge; rejected 1 entries.",
       "error": null,
       "parsedItemCount": 8,
@@ -237,8 +237,8 @@
       "httpStatus": 200,
       "finalUrl": "https://www.aicrowd.com/challenges",
       "title": "AIcrowd | Challenges",
-      "contentLength": 458677,
-      "fetchedAt": "2026-05-16T08:28:36.920Z",
+      "contentLength": 458681,
+      "fetchedAt": "2026-05-18T06:34:29.727Z",
       "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
       "error": null
     }
