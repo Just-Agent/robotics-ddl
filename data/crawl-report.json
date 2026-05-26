@@ -1,9 +1,9 @@
 {
   "topicId": "robotics-ddl",
-  "generatedAt": "2026-05-25T06:48:44.576Z",
+  "generatedAt": "2026-05-26T01:43:53.800Z",
   "adapterCount": 5,
   "reachableCount": 5,
-  "parsedItemCount": 8,
+  "parsedItemCount": 7,
   "previousParsedItemCount": 8,
   "parserHealthy": true,
   "parserDropOk": true,
@@ -18,7 +18,7 @@
       "finalUrl": "https://www.robocup.org/",
       "title": "RoboCup Federation official website",
       "contentLength": 72310,
-      "fetchedAt": "2026-05-25T06:48:42.583Z",
+      "fetchedAt": "2026-05-26T01:43:40.959Z",
       "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
       "error": null
     },
@@ -32,7 +32,7 @@
       "finalUrl": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/",
       "title": "ICRA - IEEE Robotics and Automation Society Website",
       "contentLength": 493427,
-      "fetchedAt": "2026-05-25T06:48:42.627Z",
+      "fetchedAt": "2026-05-26T01:43:41.027Z",
       "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
       "error": null
     },
@@ -46,7 +46,7 @@
       "finalUrl": "https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros/",
       "title": "International Conference on Intelligent Robots and Systems (IROS) - IEEE Robotics and Automation Society Website",
       "contentLength": 492771,
-      "fetchedAt": "2026-05-25T06:48:42.628Z",
+      "fetchedAt": "2026-05-26T01:43:41.028Z",
       "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
       "error": null
     },
@@ -55,26 +55,6 @@
       "source": "AI City Challenge",
       "url": "https://www.aicitychallenge.org",
       "items": [
-        {
-          "id": "aicity-2026-registration-opens",
-          "title": "AI City Challenge 2026 - Registration opens",
-          "deadline": "2026-05-18T23:59:59Z",
-          "dateRange": "May 18, 2026",
-          "location": "Online",
-          "isOnline": true,
-          "tags": [
-            "robotics",
-            "autonomous",
-            "smart city",
-            "AI City"
-          ],
-          "url": "https://www.aicitychallenge.org",
-          "status": "upcoming",
-          "description": "Parsed from official AI City Challenge page.",
-          "stage": "Registration",
-          "source": "AI City Challenge",
-          "type": "challenge"
-        },
         {
           "id": "aicity-2026-release-of-evaluation-server-and-test-data-sets-may-25-2026",
           "title": "AI City Challenge 2026 - Release of evaluation server and test data sets",
@@ -89,6 +69,9 @@
             "AI City"
           ],
           "url": "https://www.aicitychallenge.org",
+          "sourceUrl": "https://www.aicitychallenge.org",
+          "canonicalUrl": "https://www.aicitychallenge.org",
+          "verificationLevel": "official_event_page",
           "status": "upcoming",
           "description": "Parsed from official AI City Challenge Important Dates section.",
           "stage": "Milestone",
@@ -109,6 +92,9 @@
             "AI City"
           ],
           "url": "https://www.aicitychallenge.org",
+          "sourceUrl": "https://www.aicitychallenge.org",
+          "canonicalUrl": "https://www.aicitychallenge.org",
+          "verificationLevel": "official_event_page",
           "status": "upcoming",
           "description": "Parsed from official AI City Challenge Important Dates section.",
           "stage": "Deadline",
@@ -129,6 +115,9 @@
             "AI City"
           ],
           "url": "https://www.aicitychallenge.org",
+          "sourceUrl": "https://www.aicitychallenge.org",
+          "canonicalUrl": "https://www.aicitychallenge.org",
+          "verificationLevel": "official_event_page",
           "status": "upcoming",
           "description": "Parsed from official AI City Challenge Important Dates section.",
           "stage": "Deadline",
@@ -149,6 +138,9 @@
             "AI City"
           ],
           "url": "https://www.aicitychallenge.org",
+          "sourceUrl": "https://www.aicitychallenge.org",
+          "canonicalUrl": "https://www.aicitychallenge.org",
+          "verificationLevel": "official_event_page",
           "status": "upcoming",
           "description": "Parsed from official AI City Challenge Important Dates section.",
           "stage": "Milestone",
@@ -169,6 +161,9 @@
             "AI City"
           ],
           "url": "https://www.aicitychallenge.org",
+          "sourceUrl": "https://www.aicitychallenge.org",
+          "canonicalUrl": "https://www.aicitychallenge.org",
+          "verificationLevel": "official_event_page",
           "status": "upcoming",
           "description": "Parsed from official AI City Challenge Important Dates section.",
           "stage": "Deadline",
@@ -189,6 +184,9 @@
             "AI City"
           ],
           "url": "https://www.aicitychallenge.org",
+          "sourceUrl": "https://www.aicitychallenge.org",
+          "canonicalUrl": "https://www.aicitychallenge.org",
+          "verificationLevel": "official_event_page",
           "status": "upcoming",
           "description": "Parsed from official AI City Challenge Important Dates section.",
           "stage": "Deadline",
@@ -209,6 +207,9 @@
             "AI City"
           ],
           "url": "https://www.aicitychallenge.org",
+          "sourceUrl": "https://www.aicitychallenge.org",
+          "canonicalUrl": "https://www.aicitychallenge.org",
+          "verificationLevel": "official_event_page",
           "status": "upcoming",
           "description": "Parsed from official AI City Challenge Important Dates section.",
           "stage": "Milestone",
@@ -221,10 +222,10 @@
       "finalUrl": "https://www.aicitychallenge.org/",
       "title": "AI CITY CHALLENGE",
       "contentLength": 231001,
-      "fetchedAt": "2026-05-25T06:48:42.630Z",
-      "note": "Parsed 8 items from AI City Challenge; rejected 1 entries.",
+      "fetchedAt": "2026-05-26T01:43:41.030Z",
+      "note": "Parsed 7 items from AI City Challenge; rejected 1 entries.",
       "error": null,
-      "parsedItemCount": 8,
+      "parsedItemCount": 7,
       "invalidItemCount": 1,
       "parserHealthy": true
     },
@@ -237,8 +238,8 @@
       "httpStatus": 200,
       "finalUrl": "https://www.aicrowd.com/challenges",
       "title": "AIcrowd | Challenges",
-      "contentLength": 458683,
-      "fetchedAt": "2026-05-25T06:48:42.631Z",
+      "contentLength": 458681,
+      "fetchedAt": "2026-05-26T01:43:41.032Z",
       "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
       "error": null
     }

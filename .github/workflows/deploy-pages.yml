@@ -22,9 +22,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      - name: Prepare public Pages artifact
+        run: |
+          mkdir -p _site/data
+          cp index.html _site/index.html
+          cp .nojekyll _site/.nojekyll
+          cp data/items.json _site/data/items.json
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:
-          path: .
+          path: _site
       - id: deployment
         uses: actions/deploy-pages@v5

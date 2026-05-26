@@ -17,7 +17,10 @@
     "description": "Parsed from official AI City Challenge page.",
     "stage": "Registration",
     "source": "AI City Challenge",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://www.aicitychallenge.org",
+    "canonicalUrl": "https://www.aicitychallenge.org",
+    "verificationLevel": "official_event_page"
   },
   {
     "id": "aicity-2026-release-of-evaluation-server-and-test-data-sets-may-18-2026",
@@ -37,7 +40,10 @@
     "description": "Parsed from official AI City Challenge Important Dates section.",
     "stage": "Milestone",
     "source": "AI City Challenge",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://www.aicitychallenge.org",
+    "canonicalUrl": "https://www.aicitychallenge.org",
+    "verificationLevel": "official_event_page"
   },
   {
     "id": "aicity-2026-release-of-evaluation-server-and-test-data-sets-may-25-2026",
@@ -53,6 +59,9 @@
       "AI City"
     ],
     "url": "https://www.aicitychallenge.org",
+    "sourceUrl": "https://www.aicitychallenge.org",
+    "canonicalUrl": "https://www.aicitychallenge.org",
+    "verificationLevel": "official_event_page",
     "status": "upcoming",
     "description": "Parsed from official AI City Challenge Important Dates section.",
     "stage": "Milestone",
@@ -73,6 +82,9 @@
       "AI City"
     ],
     "url": "https://www.aicitychallenge.org",
+    "sourceUrl": "https://www.aicitychallenge.org",
+    "canonicalUrl": "https://www.aicitychallenge.org",
+    "verificationLevel": "official_event_page",
     "status": "upcoming",
     "description": "Parsed from official AI City Challenge Important Dates section.",
     "stage": "Deadline",
@@ -93,6 +105,9 @@
       "AI City"
     ],
     "url": "https://www.aicitychallenge.org",
+    "sourceUrl": "https://www.aicitychallenge.org",
+    "canonicalUrl": "https://www.aicitychallenge.org",
+    "verificationLevel": "official_event_page",
     "status": "upcoming",
     "description": "Parsed from official AI City Challenge Important Dates section.",
     "stage": "Deadline",
@@ -113,6 +128,9 @@
       "AI City"
     ],
     "url": "https://www.aicitychallenge.org",
+    "sourceUrl": "https://www.aicitychallenge.org",
+    "canonicalUrl": "https://www.aicitychallenge.org",
+    "verificationLevel": "official_event_page",
     "status": "upcoming",
     "description": "Parsed from official AI City Challenge Important Dates section.",
     "stage": "Milestone",
@@ -133,6 +151,9 @@
       "AI City"
     ],
     "url": "https://www.aicitychallenge.org",
+    "sourceUrl": "https://www.aicitychallenge.org",
+    "canonicalUrl": "https://www.aicitychallenge.org",
+    "verificationLevel": "official_event_page",
     "status": "upcoming",
     "description": "Parsed from official AI City Challenge Important Dates section.",
     "stage": "Deadline",
@@ -153,6 +174,9 @@
       "AI City"
     ],
     "url": "https://www.aicitychallenge.org",
+    "sourceUrl": "https://www.aicitychallenge.org",
+    "canonicalUrl": "https://www.aicitychallenge.org",
+    "verificationLevel": "official_event_page",
     "status": "upcoming",
     "description": "Parsed from official AI City Challenge Important Dates section.",
     "stage": "Deadline",
@@ -173,6 +197,9 @@
       "AI City"
     ],
     "url": "https://www.aicitychallenge.org",
+    "sourceUrl": "https://www.aicitychallenge.org",
+    "canonicalUrl": "https://www.aicitychallenge.org",
+    "verificationLevel": "official_event_page",
     "status": "upcoming",
     "description": "Parsed from official AI City Challenge Important Dates section.",
     "stage": "Milestone",
